@@ -1,22 +1,107 @@
-.App {
-  text-align: center;
+:root {
+   --grey10: #d8d8d8;
+   --green: #60b246;
 }
 
-.App-logo {
-  height: 40vmin;
+* {
+   font-family: "Manrope3", Arial, sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+html {
+   font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+   html {
+      font-size: calc(16px + 2 * ((100vw - 320px) / 680));
+   }
+}
+@media screen and (min-width: 1000px) {
+   html {
+      font-size: 18px;
+   }
 }
 
-.App-link {
-  color: #09d3ac;
+/* ------------ Common CSS ------------*/
+
+/* Font sizes */
+.xsmall-fs {
+   font-size: calc(14rem / 18);
+}
+
+.small-fs {
+   font-size: calc(16rem / 18);
+}
+
+.heading-fs {
+   font-size: 2rem;
+}
+
+.image-subheading-fs {
+   font-size: 1.334rem;
+}
+
+/* Font-weights */
+.fw1 {
+   font-weight: 100;
+}
+.fw2 {
+   font-weight: 200;
+}
+.fw3 {
+   font-weight: 300;
+}
+.fw4 {
+   font-weight: 400;
+}
+.fw5 {
+   font-weight: 500;
+}
+.fw6 {
+   font-weight: 600;
+}
+.fw7 {
+   font-weight: 700;
+}
+.fw8 {
+   font-weight: 800;
+}
+.fw9 {
+   font-weight: 900;
+}
+
+/* Colors */
+.white {
+   color: white;
+}
+
+/* Common Components */
+.add-btn {
+   background-color: transparent;
+   color: var(--green);
+   border: 2px solid var(--grey10);
+   border-radius: 24px;
+   font-weight: 500;
+}
+
+/* Header */
+nav.navbar {
+   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+   z-index: 11;
+}
+
+/* Home */
+.hero .col-md {
+   /* background: url("/assets/images/heroMen.jpg") center / cover no-repeat; */
+   /* width: 100%; */
+   /* height: auto; */
+   position: relative;
+}
+
+.hero-caption {
+   position: absolute;
+   left: 50%;
+   /* right: 50%; */
+   transform: translateX(-50%);
+   bottom: 0.2rem;
+   font-size: 2rem;
 }

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #55a300;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        fill: #5fac0a;
+      }
+    </style>
+  </defs>
+  <g id="veg" transform="translate(0.5 0.5)">
+    <rect id="Rectangle_6" data-name="Rectangle 6" class="cls-1" width="10" height="10" rx="1"/>
+    <circle id="Ellipse_16" data-name="Ellipse 16" class="cls-2" cx="2" cy="2" r="2" transform="translate(3 3)"/>
+  </g>
+</svg>
