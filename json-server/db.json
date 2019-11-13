@@ -1,0 +1,542 @@
+{
+  "dishes": [
+    {
+      "id": 0,
+      "name": "Chicken Thai Green Curry & Rice",
+      "image": "images/Chicken Thai Green Curry & Rice.jpg",
+      "price": 200,
+      "veg": false,
+      "category": "Main Course",
+      "label": "",
+      "featured": false,
+      "description": "Flavoured with basil, lemongrass and galangal, the aromatic Thai green coconut curry is an all-time favourite. And, we're serving it up with succulent pieces of chicken, and vegetables like zucchini, carrots, mushrooms, beans and baby corn. It's paired with a Thai-style wok-tossed rice with carrots, beans and spring onion.     ",
+      "allergen": "Contains mushrooms, soybean and nuts. Traces of celery.",
+      "note": "Served with the superfood of the day."
+    },
+    {
+      "id": 1,
+      "name": "Dal Makhani & Tawa Paranthas",
+      "image": "images/Dal Makhani & Tawa Paranthas Meal.jpg",
+      "price": 100,
+      "veg": true,
+      "category": "Main Course",
+      "label": "",
+      "featured": false,
+      "description": "Love dal makhani? Well, now you can enjoy it guilt-free. Our signature no-cream, no butter urad dal makhni is thickened with skim milk and sweetened with honey. Enjoy it with soft tawa paranthas and a side of pickled onions and green chilli.",
+      "allergen": "Contains dairy, gluten and vinegar.",
+      "note": "- 100% whole wheat paranthas\n- Dal sweetened with honey\n- High-protein dal"
+    },
+    {
+      "id": 2,
+      "name": "Fit Thali",
+      "image": "images/Fit Thali.jpg",
+      "price": 120,
+      "veg": true,
+      "category": "Main Course",
+      "label": "",
+      "featured": true,
+      "description": "Make way for this one-fit wonder! With your favourites packed in one meal, our Fit Thalis take deciding what to eat off your plate.\n\nMove over boring dal, sabzi; Coming up are fibre-packed rotis with best-selling paneer khatta pyaaz enveloped in a sweet-and-spicy gravy. It’s served with an innovative no-cream dal makhni that has the same taste and richness as the original, minus the unnecessary guilt! Enjoy this meal with the salad of the day.",
+      "allergen": "Contains gluten, dairy and nuts.",
+      "note": ""
+    },
+    {
+      "id": 3,
+      "name": "Masala Egg Curry & Tawa Paranthas",
+      "image": "images/Masala Egg Curry & Tawa Paranthas Meal.jpg",
+      "price": 120,
+      "veg": false,
+      "category": "Main Course",
+      "label": "",
+      "featured": false,
+      "description": "The perfect homestyle treat, enjoy this masala egg curry based in an onion-tomato gravy that's thickened with the goodness of cashew. It's paired with soft tawa paranthas, some pickled onions and a green chilli.",
+      "allergen": "Contains eggs, seeds, gluten, vinegar and nuts.",
+      "note": "- Protein-rich eggs\n- Mildly spiced homestyle curry\n- 100% whole wheat paranthas"
+    },
+    {
+      "id": 4,
+      "name": "Paneer Khatta Pyaaz",
+      "image": "images/Paneer Khatta Pyaaz.jpg",
+      "price": 120,
+      "veg": true,
+      "category": "Main Course",
+      "label": "",
+      "featured": false,
+      "description": "Everyone loves this bestseller! That's why, we're now serving a larger portion of our paneer khatta pyaaz. Enjoy delicious cubes of paneer enveloped by a sweet and spicy gravy that's got a base of honey, chillies, onion-tomato, beetroot and cashews.",
+      "allergen": "Allergen Information: Contains dairy, vinegar and nuts.",
+      "note": "- Protein-packed paneer\n- Cashews rich in good fats\n- No refined sugars, sweetened with honey\n- Vinegar-pickled onions\n\nServing Size: 400g"
+    },
+    {
+      "id": 5,
+      "name": "Lucknowi Veg Biryani",
+      "image": "images/Lucknowi Veg Biryani.jpg",
+      "price": 150,
+      "veg": true,
+      "category": "Main Course",
+      "label": "",
+      "featured": false,
+      "description": "Indulge in your love for biryani with eat.fit. Dig into our Lucknowi veg biryani that's the perfect balance of spices and flavours. Made with a medley of vegetables like carrots and beans , the white rice biryani is finished off with some protein-packed paneer and caramelised onions. It's served with traditional sides like salan and raita.",
+      "allergen": "Contains dairy and nuts.",
+      "note": "-*Serves 1. Raita and salan not included in nutritional values."
+    },
+    {
+      "id": 6,
+      "name": "Ghar Ke Rajma & Vegetable Pulao",
+      "image": "images/Ghar Ke Rajma & Vegetable Pulao.jpg",
+      "price": 90,
+      "veg": true,
+      "category": "Main Course",
+      "label": "",
+      "featured": false,
+      "description": "Nothing beats homestyle food. Especially good ol' rajma! Spiced with amchur, chilli and finished with a sour twist of lime, enjoy some ghar ka rajma with our carrot and peas veg pulao made using high-fibre brown rice. We're also sending you some roasted papad on the side. .",
+      "allergen": "",
+      "note": "-Served with the superfood of the day.."
+    },
+    {
+      "id": 7,
+      "name": "Sambar & Red Rice Meal",
+      "image": "images/Sambar & Red Rice Meal.jpg",
+      "price": 100,
+      "veg": true,
+      "category": "Main Course",
+      "label": "",
+      "featured": false,
+      "description": "As much an everyday staple as dal rice, this Southern favourite is a great way to switch things up when you're looking for homely, comfort food. Our toor dal sambar is hearty and packed with vegetables like eggplant, drumstick, pumpkin, onion and tomatoes. It's sweetened with jaggery, balanced with tamarind, and spiced using hing, red chillies, mustard sees and curry leaves. The sambar is paired with high-fibre red rice that aids digesiton and is light on your stomach.",
+      "allergen": "Contains seeds and nuts",
+      "note": ""
+    },
+    {
+      "id": 8,
+      "name": "Sambar & Red Rice Meal",
+      "image": "images/Sambar & Red Rice Meal.jpg",
+      "price": 100,
+      "veg": true,
+      "category": "Main Course",
+      "label": "",
+      "featured": false,
+      "description": "As much an everyday staple as dal rice, this Southern favourite is a great way to switch things up when you're looking for homely, comfort food. Our toor dal sambar is hearty and packed with vegetables like eggplant, drumstick, pumpkin, onion and tomatoes. It's sweetened with jaggery, balanced with tamarind, and spiced using hing, red chillies, mustard sees and curry leaves. The sambar is paired with high-fibre red rice that aids digesiton and is light on your stomach.",
+      "allergen": "Contains seeds and nuts",
+      "note": ""
+    },
+    {
+      "id": 9,
+      "name": "Lucknowi Chicken Biryani (with Egg)",
+      "image": "images/Lucknowi Chicken Biryani (with Egg).jpg",
+      "price": 180,
+      "veg": false,
+      "category": "Main Course",
+      "label": "",
+      "featured": false,
+      "description": "Indulge in your love for biryani with eat.fit. Dig into our Lucknowi chicken biryani that's the perfect balance of spices and flavours. With succulent chicken (served on the bone) enveloped in a yogurt-based marinade, we've also added the goodness of boiled eggs for some extra protein. This biryani is served with traditional sides like salan and raita. It's made using high-quality white Basmati rice.",
+      "allergen": "Contains dairy, eggs and nuts.",
+      "note": "Serves 1. Raita and salan not included in nutritional values."
+    },
+    {
+      "id": 10,
+      "name": "Jeera Aloo, Punjabi Chole & Rotis",
+      "image": "images/Jeera Aloo, Punjabi Chole & Rotis.jpg",
+      "price": 110,
+      "veg": true,
+      "category": "Main Course",
+      "label": "",
+      "featured": false,
+      "description": "Made in less oil, we just made your favourite aloo jeera sabzi much healthier. Paired with a homestyle protein-packed chole curry, enjoy this winning combination with some nutritious fibre-rich rotis, a crunchy veg salad and tummy-cooling spinach raita ",
+      "allergen": "Contains dairy and gluten.",
+      "note": "Served with the superfood of the day."
+    },
+    {
+      "id": 11,
+      "name": "Masala Egg Curry & Vegetable Pulao",
+      "image": "images/Masala Egg Curry & Vegetable Pulao.jpg",
+      "price": 140,
+      "veg": false,
+      "category": "Main Course",
+      "label": "",
+      "featured": false,
+      "description": "The perfect one bowl meal, enjoy this homestyle egg curry based in an onion-tomato gravy that's thickened with the goodness of cashew. It's paired with a flavourful veg pulao that packs carrots and green peas. We're also sending you some roasted papad on the side.         ",
+      "allergen": "Contains eggs and nuts.",
+      "note": "Served with the superfood of the day."
+    },
+    {
+      "id": 12,
+      "name": "Chilli Chicken Hakka Noodles",
+      "image": "images/Chilli Chicken Hakka Noodles.jpg",
+      "price": 150,
+      "veg": true,
+      "category": "Main Course",
+      "label": "",
+      "featured": false,
+      "description": "A bowl full of goodness, our dry chilli chicken laid atop traditional veg hakka noodles is just what you need today! With 100% whole wheat noodles and chicken that's baked, not fried, you can enjoy your favourite one-bowl meal guilt-free.         ",
+      "allergen": "Contains gluten, soy sauce, soybean, (mushroom in sauce).",
+      "note": "Served with the superfood of the day."
+    },
+    {
+      "id": 13,
+      "name": "Murg Khurchan",
+      "image": "images/Murg Khurchan.jpg",
+      "price": 220,
+      "veg": false,
+      "category": "Main Course",
+      "label": "",
+      "featured": false,
+      "description": "Calling out to all chicken lovers! Here's a super-sized version of our bestselling murg khurchan curry. It has succulent pieces of chicken and capsicum which are enveloped in an onion tomato gravy. Spiced with cumin, coriander, chilli and chaat masala, enjoy this delicious dish today.         ",
+      "allergen": "Contains nuts.",
+      "note": ""
+    },
+    {
+      "id": 14,
+      "name": "Bombay Masala Toastie",
+      "image": "images/Bombay Masala Toastie.jpg",
+      "price": 80,
+      "veg": true,
+      "category": "Snacks",
+      "label": "",
+      "featured": false,
+      "description": "Straight from the streets of Mumbai, the classic mashed potato and vegetable sandwich is up for grabs. Packed with flavour and fibre, it's layered with some roasted beetroot and garlic chutney. Enjoy the toastie with a side of our coriander and spring onion dip.",
+      "allergen": "Contains nuts, gluten and nutmeg.",
+      "note": ""
+    },
+    {
+      "id": 15,
+      "name": "Protein Sandwich",
+      "image": "images/Protein Sandwich.jpg",
+      "price": 80,
+      "veg": true,
+      "category": "Snacks",
+      "label": "",
+      "featured": false,
+      "description": "Calling out to all Vegans; Our hearty seared Vegan protein sandwich is here! \n\n Nutritious plant-based protein packed between whole wheat breads makes this delicious snack score high on both taste, and health. The patty is succulent with layers our in-house honey-mustard, South-West, and coriander and spring onion sauces. Mixed with jalapenos, cucumbers, and tomatoes, take a bite out of the good Vegan mid-day snack today!",
+      "allergen": "Contains soy, gluten, mustard, nuts, seeds, cider vinegar. Traces of mushroom and celery.",
+      "note": ""
+    },
+    {
+      "id": 16,
+      "name": "Classic Boiled Egg Sandwich",
+      "image": "images/Classic Boiled Egg Sandwich.jpg",
+      "price": 60,
+      "veg": false,
+      "category": "Snacks",
+      "label": "",
+      "featured": false,
+      "description": "We love a good sandwich. And, you can never go wrong with a simple boiled egg and bell peppers mix enveloped in delicious mayo. Well, we've swapped the fatty condiment for an in-house cashew mayo and and added some spring onion and minced green chilli for a flavourful kick. Our version of the classic boiled egg sandwich is a must-try!",
+      "allergen": "Contains eggs, mushroom, apple cider vinegar, nuts, mustard and gluten.",
+      "note": "Served cold."
+    },
+    {
+      "id": 17,
+      "name": "Veg Hakka Noodles",
+      "image": "images/Veg Hakka Noodles.jpg",
+      "price": 100,
+      "veg": true,
+      "category": "Snacks",
+      "label": "",
+      "featured": false,
+      "description": "Here is the comfort food we all love, vegetable noodles! Stir fried with a variety of vegetable such as capsicum, carrots, bell peppers and cabbage, these spicy and tangy noodles will make a filling quick meal you will absolutely love.",
+      "allergen": "Contains gluten, soy and traces of mushrooms and celery.",
+      "note": "- Immunity boosting vegetables"
+    },
+    {
+      "id": 18,
+      "name": "Fruit Pop Oatmeal Bowl",
+      "image": "images/Fruit Pop Oatmeal Bowl.jpg",
+      "price": 99,
+      "veg": true,
+      "category": "Main Course",
+      "label": "",
+      "featured": false,
+      "description": "Ideal for weight loss, our Fruit Pop Oatmeal bowl is the perfect way to refuel during the day. A wholesome take on the popular overnight oats jar trend, we use nutritious unprocessed rolled oats tossed with basil seeds, sweetened with honey and dates and seasonal fruits. The oatmeal is sweetened with natural sugars like dates and honey.",
+      "allergen": "Contains dairy.",
+      "note": "*Please note, the selection of fruits may vary from those pictured based on seasonality. Also, this item is served cold."
+    },
+    {
+      "id": 19,
+      "name": "Classic Fruit Bowl",
+      "image": "images/Classic Fruit Bowl.jpg",
+      "price": 70,
+      "veg": true,
+      "category": "Healthy",
+      "label": "",
+      "featured": false,
+      "description": "It's always a good time for fresh, hydrating seasonal fruits that fill you up without packing on the calories. Get your dose of natural sugars, fibre and immunity-boosting antioxidants with our fruit bowl packed with seasonal fruits. The special addition of nuts and seeds add crunch and flavour to the fruit bowl.",
+      "allergen": "Allergen Information: Contains nuts, seeds and pineapple.",
+      "note": "*Please note, the selection of fruits may vary from those pictured based on seasonality."
+    },
+    {
+      "id": 20,
+      "name": "Fruit Cereal",
+      "image": "images/Fruit Cereal.jpg",
+      "price": 80,
+      "veg": true,
+      "category": "Healthy",
+      "label": "",
+      "featured": false,
+      "description": "There's just something about the combination of sweet fruit and hearty whole grains. We deliver thee best of it.",
+      "allergen": "Contains dairy products and nuts.",
+      "note": "*Please note, the selection of fruits may vary from those pictured based on seasonality. Also, this item is served cold."
+    },
+    {
+      "id": 21,
+      "name": "Multigrain Palak Khichdi",
+      "image": "images/Multigrain Palak Khichdi.jpg",
+      "price": 70,
+      "veg": true,
+      "category": "Healthy",
+      "label": "",
+      "featured": false,
+      "description": "Rich in healthy fibre, proteins, vitamins and essential minerals, this vegan yogic bowl of multigrain khichdi is just what you need today! With a base of barley, broken wheat, quinoa, foxtail millet, moong dal, and brown Basmati rice, the addition of iron-rich spinach makes the khichdi a wholesome meal. Enjoy it with a side of roasted papad.",
+      "allergen": "Contains gluten and nuts.",
+      "note": "\n- High-fibre grains\n- Protein-rich quinoa and dal\n- Spinach packed with iron\n- Anti-inflammatory \nspices\n- Vegan khichdi\n\n*Papad not included in nutrition values.."
+    },
+    {
+      "id": 22,
+      "name": "Hot Gulab Jamun",
+      "image": "images/Hot Gulab Jamun.jpg",
+      "price": 20,
+      "veg": true,
+      "category": "Sweets",
+      "label": "",
+      "featured": false,
+      "description": "One of the most beloved desserts.",
+      "allergen": "Contains dairy.",
+      "note": "*Please note, the price is per piece."
+    },
+    {
+      "id": 23,
+      "name": "Lotus Ice Cream",
+      "image": "images/Lotus Ice Cream.jpg",
+      "price": 40,
+      "veg": true,
+      "category": "Sweets",
+      "label": "",
+      "featured": false,
+      "description": "Get yourself sweetened by the chocolate flavour.",
+      "allergen": "Allergen Information: Contains dairy products and nuts.",
+      "note": "*Please note, the given price is for 2 scoops."
+    },
+    {
+      "id": 24,
+      "name": "Spongy Rasgulla",
+      "image": "images/Spongy Rasgulla.jpg",
+      "price": 40,
+      "veg": true,
+      "category": "Sweets",
+      "label": "",
+      "featured": false,
+      "description": "Rasgulla is an Indian syrupy dessert popular in the Indian subcontinent and regions with South Asian diaspora. It is made from ball-shaped dumplings of chhena (an Indian cottage cheese) and semolina dough, cooked in light syrup made of sugar. It is loved by many people. Taste the sweetness.",
+      "allergen": "Contains dairy.",
+      "note": "*Please note, the given price is for 2 pieces."
+    }
+  ],
+  "comments": [
+    {
+      "id": 0,
+      "dishId": 0,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "John Lemon",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 1,
+      "dishId": 0,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Paul McVites",
+      "date": "2014-09-05T17:57:28.556094Z"
+    },
+    {
+      "id": 2,
+      "dishId": 0,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Michael Jaikishan",
+      "date": "2015-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 3,
+      "dishId": 0,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Ringo Starry",
+      "date": "2013-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 4,
+      "dishId": 0,
+      "rating": 2,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "25 Cent",
+      "date": "2011-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 5,
+      "dishId": 1,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "John Lemon",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 6,
+      "dishId": 1,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Paul McVites",
+      "date": "2014-09-05T17:57:28.556094Z"
+    },
+    {
+      "id": 7,
+      "dishId": 1,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Michael Jaikishan",
+      "date": "2015-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 8,
+      "dishId": 1,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Ringo Starry",
+      "date": "2013-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 9,
+      "dishId": 1,
+      "rating": 2,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "25 Cent",
+      "date": "2011-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 10,
+      "dishId": 2,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "John Lemon",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 11,
+      "dishId": 2,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Paul McVites",
+      "date": "2014-09-05T17:57:28.556094Z"
+    },
+    {
+      "id": 12,
+      "dishId": 2,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Michael Jaikishan",
+      "date": "2015-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 13,
+      "dishId": 2,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Ringo Starry",
+      "date": "2013-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 14,
+      "dishId": 2,
+      "rating": 2,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "25 Cent",
+      "date": "2011-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 15,
+      "dishId": 3,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "John Lemon",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 16,
+      "dishId": 3,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Paul McVites",
+      "date": "2014-09-05T17:57:28.556094Z"
+    },
+    {
+      "id": 17,
+      "dishId": 3,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Michael Jaikishan",
+      "date": "2015-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 18,
+      "dishId": 3,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Ringo Starry",
+      "date": "2013-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 19,
+      "dishId": 3,
+      "rating": 2,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "25 Cent",
+      "date": "2011-12-02T17:57:28.556094Z"
+    },
+    {
+      "dishId": 1,
+      "rating": 5,
+      "author": "yogi",
+      "comment": "comment",
+      "date": "2019-11-13T17:59:17.069Z",
+      "id": 20
+    }
+  ],
+  "promotions": [
+    {
+      "id": 0,
+      "name": "Weekend Grand Buffet",
+      "image": "images/buffet.png",
+      "label": "New",
+      "price": "19.99",
+      "featured": true,
+      "description": "Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person "
+    }
+  ],
+  "leaders": [
+    {
+      "id": 0,
+      "name": "Prince",
+      "image": "images/prince.jpg",
+      "designation": "Chief Epicurious Officer",
+      "abbr": "CEO",
+      "featured": true,
+      "description": "Our CEO, Prince, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which The Frying Pan became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections."
+    },
+    {
+      "id": 1,
+      "name": "Hritvij Yadav",
+      "image": "images/hritvij.jpg",
+      "designation": "Chief Food Officer",
+      "abbr": "CFO",
+      "featured": false,
+      "description": "Our CFO, Hritvij, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, Everything that runs, wins, and everything that stays, pays!"
+    }
+  ],
+  "feedback": [
+    {
+      "firstname": "Rahul",
+      "lastname": "Kumar",
+      "telnum": "9812698345",
+      "email": "rahuled@mailinator.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "This is an example of a feedback form with validation.",
+      "id": 1
+    }
+  ]
+}

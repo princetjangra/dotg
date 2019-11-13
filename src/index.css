@@ -1,13 +1,173 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Manrope";
+  src: url("fonts/manrope-extrabold.woff2") format("woff2"),
+    /* Modern browsers */ url("fonts/manrope-extrabold.woff") format("woff"),
+    /* Legacy browsers */ url("fonts/manrope-extrabold.otf") format("truetype"); /* Android, iOS */
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("fonts/manrope-bold.woff2") format("woff2"),
+    url("fonts/manrope-bold.woff") format("woff"),
+    url("fonts/manrope-bold.otf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("fonts/manrope-semibold.woff2") format("woff2"),
+    url("fonts/manrope-semibold.woff") format("woff"),
+    url("fonts/manrope-semibold.otf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("fonts/manrope-medium.woff2") format("woff2"),
+    url("fonts/manrope-medium.woff") format("woff"),
+    url("fonts/manrope-medium.otf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("fonts/manrope-regular.woff2") format("woff2"),
+    url("fonts/manrope-regular.woff") format("woff"),
+    url("fonts/manrope-regular.otf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("fonts/manrope-light.woff2") format("woff2"),
+    url("fonts/manrope-light.woff") format("woff"),
+    url("fonts/manrope-light.otf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("fonts/manrope-thin.woff2") format("woff2"),
+    url("fonts/manrope-thin.woff") format("woff"),
+    url("fonts/manrope-thin.otf") format("truetype");
+  font-style: normal;
+  font-weight: 200;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* ------------ Common CSS ------------*/
+
+/* Font sizes */
+.xxsmall-fs {
+  font-size: calc(12rem / 16);
+}
+
+.xsmall-fs {
+  font-size: calc(14rem / 16);
+}
+
+.small-fs {
+  font-size: calc(16rem / 16);
+}
+
+.regular-fs {
+  font-size: calc(18rem / 16);
+}
+
+.large-fs {
+  font-size: calc(24rem / 16);
+}
+
+.xlarge-fs {
+  font-size: calc(32rem / 16);
+}
+
+.xxlarge-fs {
+  font-size: calc(48rem / 16);
+}
+
+/* Font-weights */
+.fw1 {
+  font-weight: 100;
+}
+.fw2 {
+  font-weight: 200;
+}
+.fw3 {
+  font-weight: 300;
+}
+.fw4 {
+  font-weight: 400;
+}
+.fw5 {
+  font-weight: 500;
+}
+.fw6 {
+  font-weight: 600;
+}
+.fw7 {
+  font-weight: 700;
+}
+.fw8 {
+  font-weight: 800;
+}
+.fw9 {
+  font-weight: 900;
+}
+
+/* Colors */
+.white {
+  color: white;
+}
+
+.grey10 {
+  color: #d8d8d8;
+}
+
+.grey60 {
+  color: #a2a2a2;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a img {
+  transition: all 0.3s ease;
+}
+
+a:hover img {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.logo-svg {
+  fill: #ddd;
+}
+.navbar-brand:hover .logo-svg {
+  fill: white;
 }

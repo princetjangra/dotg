@@ -1,23 +1,23 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
+import Main from "./components/MainComponent";
 import "./App.css";
-import { MAIN_COURSE, SNACKS, HEALTHY, SWEETS } from "./shared/data";
-import MainComponent from "./components/MainComponent";
+import { Provider } from "react-redux";
+import { ConfigureStore } from "./redux/configureStore";
 
-function App() {
-   return (
-      <BrowserRouter>
-         <div className="App">
-            <MainComponent
-               main_course={MAIN_COURSE}
-               snacks={SNACKS}
-               healthy={HEALTHY}
-               sweets={SWEETS}
-            />
-         </div>
-      </BrowserRouter>
-   );
+const store = ConfigureStore();
+class App extends React.Component {
+   render() {
+      return (
+         <Provider store={store}>
+            <BrowserRouter>
+               <div className="App">
+                  <Main />
+               </div>
+            </BrowserRouter>
+         </Provider>
+      );
+   }
 }
 
 export default App;

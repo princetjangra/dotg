@@ -1,115 +1,77 @@
-import React, { Component } from "react";
-import { Veg, NonVeg } from "./vegIcons";
-// import { ReactComponent as Veg } from "./assets/images/veg.svg";
-// import { ReactComponent as NonVeg } from "./assets/images/non-veg.svg";
-
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import React from "react";
 import {
-   Row,
-   Col,
-   Container,
-   Media,
-   Card,
-   CardImg,
-   CardText,
-   CardBody,
-   CardTitle,
-   CardSubtitle,
-   Button
+  Card,
+  CardImg,
+  CardText,
+  CardBody,
+  CardTitle,
+  CardSubtitle
 } from "reactstrap";
+import { Link } from "react-router-dom";
+import { Loading } from "./LoadingComponent";
+import { baseUrl } from "../shared/baseUrl";
+import { FadeTransform } from "react-animation-components";
 
-const HeroSection = () => {
-   return (
-      <Row className="hero mx-0">
-         <Col md={true} className="mx-0 px-0">
-            <div className="img-fluid hero-img xlarge-fs text-center white">
-               Dishes on the Go
+function RenderItem({ item, isLoading, errmess }) {
+  if (isLoading) {
+    return <Loading />;
+  } else if (errmess) {
+    return <h4>{errmess}</h4>;
+  } else
+    return (
+      <FadeTransform
+        in
+        transformProps={{ exitTransform: "scale(0.5) translateY(-50%)" }}
+      >
+        <Card>
+          <Link to={`/menu/${item.id}`} className="overflow-hidden">
+            <div className="overflow-hidden">
+              <CardImg src={baseUrl + item.image} alt={item.name} />
             </div>
-         </Col>
-      </Row>
-   );
-};
-
-const Dish = props => {
-   return (
-      <Col md={true} className="my-2">
-         <Card>
-            <CardImg
-               top
-               width="100%"
-               src={props.dish.img}
-               alt={props.dish.name}
-            />
             <CardBody>
-               <CardTitle className="mb-1">{props.dish.name}</CardTitle>
-               {props.dish.veg ? <Veg /> : <NonVeg />}
-
-               <CardSubtitle className="d-inline-block">
-                  {props.dish.category.map(category => (
-                     <span className="xxsmall-fs grey60">
-                        {"  "}
-                        {category}
-                        {" | "}
-                     </span>
-                  ))}
-               </CardSubtitle>
-               {/* <CardText></CardText> */}
-               <Button className="ml-auto add-btn">ADD</Button>
-               <p className="fw6 mb-0">₹100</p>
+              <CardTitle>{item.name}</CardTitle>
+              {item.designation ? (
+                <CardSubtitle>{item.designation}</CardSubtitle>
+              ) : null}
+              <CardText>{item.description}</CardText>
             </CardBody>
-         </Card>
-         {/* <Media
-            object
-            className="rounded"
-            data-src={props.dish.img}
-            alt={props.dish.name}
-            fluid="true"
-            rounded="true"
-         />
-         <p className="mb-1">{props.dish.name}</p> */}
-         {/* <img className="img-fluid"
-            src={
-               props.dish.veg
-                  ? "./assets/images/veg.svg"
-                  : "./assets/images/non-veg.svg"
-            }
-            src={props.dish.veg ? <Veg /> : <NonVeg />}
-         /> */}
-         {/* {props.dish.veg ? <Veg /> : <NonVeg />}
-         {props.dish.category.map(category => (
-            <span
-               className="xxsmall-fs grey60"
-               style={{ letterSpacing: "0.02rem" }}
-            >
-               {" "}
-               {category}
-               {" | "}
-            </span>
-         ))}
-         <Button className="ml-auto add-btn">ADD</Button>
-         <span className="fw6">₹100</span> */}
-      </Col>
-   );
-};
+          </Link>
+        </Card>
+      </FadeTransform>
+    );
+}
 
-export class Home extends Component {
-   render() {
-      return (
-         <>
-            <HeroSection />
-            <Container>
-               {/* <img className="" alt="Hero" fluid="true" /> */}
-               <h5>Popular Foods: </h5>
-               <Row className="popular">
-                  {this.props.main_course.slice(0, 3).map(dish => (
-                     <Dish key={dish.id} dish={dish} />
-                  ))}
-               </Row>
-            </Container>
-         </>
-      );
-   }
+function Home(props) {
+  return (
+    <div className="container">
+      <div className="container py-4">
+        <h1>Featured: </h1>
+        <div className="row align-items-start">
+          <div className="col-12 col-md m-1">
+            <RenderItem
+              item={props.dish}
+              isLoading={props.dishesLoading}
+              errmess={props.dishesErrmess}
+            />
+          </div>
+          <div className="col-12 col-md m-1">
+            <RenderItem
+              item={props.promotion}
+              isLoading={props.promoLoading}
+              errmess={props.promoErrmess}
+            />
+          </div>
+          <div className="col-12 col-md m-1">
+            <RenderItem
+              item={props.leader}
+              isLoading={props.leaderLoading}
+              errmess={props.leaderErrmess}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Home;
