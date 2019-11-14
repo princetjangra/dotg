@@ -26,23 +26,27 @@ const minLength = len => val => !val || val.length >= len;
 
 function RenderDish({ dish }) {
   return (
-    <div className="col-12 col-md-5 m-1">
+    <div className=" m-1">
       <FadeTransform
         in
         transformProps={{ exitTransform: "scale(0.5) translateY(-50%)" }}
       >
-        <Card>
-          <div className="overflow-hidden">
-            <CardImg src={baseUrl + dish.image} alt={dish.name} />
+        <div className="row">
+          <div className="col-12 col-md-6 overflow-hidden">
+            <img className="img-fluid rounded-lg shadow" src={baseUrl + dish.image} alt={dish.name} />
           </div>
 
-          <CardBody>
-            <CardTitle>{dish.name}</CardTitle>
+          <div className="col-12 col-md-6 ">
+            <div className="xlarge-fs fw6 mb-1">{dish.name}</div >
             {dish.veg ? <Veg /> : <NonVeg />}{" "}
-            <span className="xsmall-fs fw3 grey60">{dish.category}</span>
-            <CardText>{dish.description}</CardText>
-          </CardBody>
-        </Card>
+            <span className="small-fs fw4 grey60">{dish.category}</span>
+            <div className="large-fs fw6 my-1">₹{dish.price}</div>
+            <hr />
+            <p>{dish.description}</p>
+            <b>Allergen:</b>
+            <p>{dish.allergen}</p>
+          </div>
+        </div>
       </FadeTransform>
     </div>
   );
@@ -50,7 +54,9 @@ function RenderDish({ dish }) {
 
 function RenderComments({ comments, dishId, postComment }) {
   return (
-    <div className="col-12 col-md-5 m-1">
+    <div className="col-12 col-md-6 ml-auto m-1">
+      <h3 className="ml-auto">Comments: </h3>
+
       <Stagger in>
         {comments.map(c => {
           return (
@@ -212,13 +218,16 @@ const Dishdetail = props => {
           </BreadcrumbItem>
           <BreadcrumbItem active>{props.dish.name}</BreadcrumbItem>
         </Breadcrumb>
-        <div className="col-12">
+        {/* <div className="col-12">
           <h3>{props.dish.name}</h3>
           <hr />
-        </div>
+        </div> */}
       </div>
       <div className="row">
         <RenderDish dish={props.dish} />
+      </div>
+      <div className="row">
+
         <RenderComments
           comments={props.comments}
           dishId={props.dish.id}
@@ -227,8 +236,8 @@ const Dishdetail = props => {
       </div>
     </div>
   ) : (
-    <div></div>
-  );
+      <div></div>
+    );
 };
 
 export default Dishdetail;
