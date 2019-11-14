@@ -99,26 +99,13 @@
       "veg": true,
       "category": "Main Course",
       "label": "",
-      "featured": false,
+      "featured": true,
       "description": "As much an everyday staple as dal rice, this Southern favourite is a great way to switch things up when you're looking for homely, comfort food. Our toor dal sambar is hearty and packed with vegetables like eggplant, drumstick, pumpkin, onion and tomatoes. It's sweetened with jaggery, balanced with tamarind, and spiced using hing, red chillies, mustard sees and curry leaves. The sambar is paired with high-fibre red rice that aids digesiton and is light on your stomach.",
       "allergen": "Contains seeds and nuts",
       "note": ""
     },
     {
       "id": 8,
-      "name": "Sambar & Red Rice Meal",
-      "image": "images/Sambar & Red Rice Meal.jpg",
-      "price": 100,
-      "veg": true,
-      "category": "Main Course",
-      "label": "",
-      "featured": false,
-      "description": "As much an everyday staple as dal rice, this Southern favourite is a great way to switch things up when you're looking for homely, comfort food. Our toor dal sambar is hearty and packed with vegetables like eggplant, drumstick, pumpkin, onion and tomatoes. It's sweetened with jaggery, balanced with tamarind, and spiced using hing, red chillies, mustard sees and curry leaves. The sambar is paired with high-fibre red rice that aids digesiton and is light on your stomach.",
-      "allergen": "Contains seeds and nuts",
-      "note": ""
-    },
-    {
-      "id": 9,
       "name": "Lucknowi Chicken Biryani (with Egg)",
       "image": "images/Lucknowi Chicken Biryani (with Egg).jpg",
       "price": 180,
@@ -131,7 +118,7 @@
       "note": "Serves 1. Raita and salan not included in nutritional values."
     },
     {
-      "id": 10,
+      "id": 9,
       "name": "Jeera Aloo, Punjabi Chole & Rotis",
       "image": "images/Jeera Aloo, Punjabi Chole & Rotis.jpg",
       "price": 110,
@@ -144,7 +131,7 @@
       "note": "Served with the superfood of the day."
     },
     {
-      "id": 11,
+      "id": 10,
       "name": "Masala Egg Curry & Vegetable Pulao",
       "image": "images/Masala Egg Curry & Vegetable Pulao.jpg",
       "price": 140,
@@ -157,7 +144,7 @@
       "note": "Served with the superfood of the day."
     },
     {
-      "id": 12,
+      "id": 11,
       "name": "Chilli Chicken Hakka Noodles",
       "image": "images/Chilli Chicken Hakka Noodles.jpg",
       "price": 150,
@@ -170,7 +157,7 @@
       "note": "Served with the superfood of the day."
     },
     {
-      "id": 13,
+      "id": 12,
       "name": "Murg Khurchan",
       "image": "images/Murg Khurchan.jpg",
       "price": 220,
@@ -183,20 +170,20 @@
       "note": ""
     },
     {
-      "id": 14,
+      "id": 13,
       "name": "Bombay Masala Toastie",
       "image": "images/Bombay Masala Toastie.jpg",
       "price": 80,
       "veg": true,
       "category": "Snacks",
       "label": "",
-      "featured": false,
+      "featured": true,
       "description": "Straight from the streets of Mumbai, the classic mashed potato and vegetable sandwich is up for grabs. Packed with flavour and fibre, it's layered with some roasted beetroot and garlic chutney. Enjoy the toastie with a side of our coriander and spring onion dip.",
       "allergen": "Contains nuts, gluten and nutmeg.",
       "note": ""
     },
     {
-      "id": 15,
+      "id": 14,
       "name": "Protein Sandwich",
       "image": "images/Protein Sandwich.jpg",
       "price": 80,
@@ -209,7 +196,7 @@
       "note": ""
     },
     {
-      "id": 16,
+      "id": 15,
       "name": "Classic Boiled Egg Sandwich",
       "image": "images/Classic Boiled Egg Sandwich.jpg",
       "price": 60,
@@ -222,7 +209,7 @@
       "note": "Served cold."
     },
     {
-      "id": 17,
+      "id": 16,
       "name": "Veg Hakka Noodles",
       "image": "images/Veg Hakka Noodles.jpg",
       "price": 100,
@@ -235,7 +222,7 @@
       "note": "- Immunity boosting vegetables"
     },
     {
-      "id": 18,
+      "id": 17,
       "name": "Fruit Pop Oatmeal Bowl",
       "image": "images/Fruit Pop Oatmeal Bowl.jpg",
       "price": 99,
@@ -248,7 +235,7 @@
       "note": "*Please note, the selection of fruits may vary from those pictured based on seasonality. Also, this item is served cold."
     },
     {
-      "id": 19,
+      "id": 18,
       "name": "Classic Fruit Bowl",
       "image": "images/Classic Fruit Bowl.jpg",
       "price": 70,
@@ -261,7 +248,7 @@
       "note": "*Please note, the selection of fruits may vary from those pictured based on seasonality."
     },
     {
-      "id": 20,
+      "id": 19,
       "name": "Fruit Cereal",
       "image": "images/Fruit Cereal.jpg",
       "price": 80,
@@ -274,7 +261,7 @@
       "note": "*Please note, the selection of fruits may vary from those pictured based on seasonality. Also, this item is served cold."
     },
     {
-      "id": 21,
+      "id": 20,
       "name": "Multigrain Palak Khichdi",
       "image": "images/Multigrain Palak Khichdi.jpg",
       "price": 70,
@@ -287,7 +274,7 @@
       "note": "\n- High-fibre grains\n- Protein-rich quinoa and dal\n- Spinach packed with iron\n- Anti-inflammatory \nspices\n- Vegan khichdi\n\n*Papad not included in nutrition values.."
     },
     {
-      "id": 22,
+      "id": 21,
       "name": "Hot Gulab Jamun",
       "image": "images/Hot Gulab Jamun.jpg",
       "price": 20,
@@ -300,7 +287,7 @@
       "note": "*Please note, the price is per piece."
     },
     {
-      "id": 23,
+      "id": 22,
       "name": "Lotus Ice Cream",
       "image": "images/Lotus Ice Cream.jpg",
       "price": 40,
@@ -313,7 +300,7 @@
       "note": "*Please note, the given price is for 2 scoops."
     },
     {
-      "id": 24,
+      "id": 23,
       "name": "Spongy Rasgulla",
       "image": "images/Spongy Rasgulla.jpg",
       "price": 40,

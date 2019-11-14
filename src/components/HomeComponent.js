@@ -67,6 +67,11 @@ function Home(props) {
               isLoading={props.leaderLoading}
               errmess={props.leaderErrmess}
             />
+            {/* <RenderItem
+              item={props.dish}
+              isLoading={props.dishesLoading}
+              errmess={props.dishesErrmess}
+            /> */}
           </div>
         </div>
       </div>
