@@ -1,10 +1,10 @@
 import React from "react";
 import {
-  Card,
-  CardImg,
-  CardBody,
-  CardTitle,
-  CardText,
+  // Card,
+  // CardImg,
+  // CardBody,
+  // CardTitle,
+  // CardText,
   Breadcrumb,
   BreadcrumbItem,
   Button,
@@ -33,11 +33,15 @@ function RenderDish({ dish }) {
       >
         <div className="row">
           <div className="col-12 col-md-6 overflow-hidden">
-            <img className="img-fluid rounded-lg shadow" src={baseUrl + dish.image} alt={dish.name} />
+            <img
+              className="img-fluid rounded-lg shadow"
+              src={baseUrl + dish.image}
+              alt={dish.name}
+            />
           </div>
 
           <div className="col-12 col-md-6 ">
-            <div className="xlarge-fs fw6 mb-1">{dish.name}</div >
+            <div className="xlarge-fs fw6 mb-1">{dish.name}</div>
             {dish.veg ? <Veg /> : <NonVeg />}{" "}
             <span className="small-fs fw4 grey60">{dish.category}</span>
             <div className="large-fs fw6 my-1">₹{dish.price}</div>
@@ -45,6 +49,8 @@ function RenderDish({ dish }) {
             <p>{dish.description}</p>
             <b>Allergen:</b>
             <p>{dish.allergen}</p>
+            {dish.note ? <b>Notes:</b> : ""}
+            <p>{dish.note}</p>
           </div>
         </div>
       </FadeTransform>
@@ -227,7 +233,6 @@ const Dishdetail = props => {
         <RenderDish dish={props.dish} />
       </div>
       <div className="row">
-
         <RenderComments
           comments={props.comments}
           dishId={props.dish.id}
@@ -236,8 +241,8 @@ const Dishdetail = props => {
       </div>
     </div>
   ) : (
-      <div></div>
-    );
+    <div></div>
+  );
 };
 
 export default Dishdetail;

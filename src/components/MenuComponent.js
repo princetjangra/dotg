@@ -3,6 +3,9 @@ import {
   Card,
   CardImg,
   CardTitle,
+  FormGroup,
+  Label,
+  Input,
   Breadcrumb,
   BreadcrumbItem
 } from "reactstrap";
@@ -27,6 +30,49 @@ function RenderMenuItem({ dish, onClick }) {
       </Link>
     </Card>
   );
+}
+
+class VegNonveg extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { veg: true, nonveg: true };
+  }
+
+  checkItem(ev) {
+    const { name } = ev.target;
+    this.setState(prevState => ({
+      [name]: !prevState[name]
+    }));
+  }
+
+  render() {
+    return (
+      <div className="ml-auto row my-2 d-flex align-items-center">
+        <FormGroup className="mr-2" check>
+          <Label check>
+            <Input
+              type="checkbox"
+              name="veg"
+              checked={this.state.veg}
+              onChange={e => this.checkItem(e)}
+            />{" "}
+            Veg
+          </Label>
+        </FormGroup>
+        <FormGroup className="" check>
+          <Label check>
+            <Input
+              type="checkbox"
+              name="nonveg"
+              checked={this.state.nonveg}
+              onChange={e => this.checkItem(e)}
+            />{" "}
+            NonVeg
+          </Label>
+        </FormGroup>
+      </div>
+    );
+  }
 }
 
 function Menu(props) {
@@ -87,33 +133,26 @@ function Menu(props) {
     return (
       <div className="container">
         <div className="row">
-          <Breadcrumb className="bg-white">
+          <Breadcrumb className="bg-white my-2">
             <BreadcrumbItem>
               <Link to="/home">Home</Link>
             </BreadcrumbItem>
             <BreadcrumbItem active>Menu</BreadcrumbItem>
           </Breadcrumb>
-          {/* <Button /> */}
+          <VegNonveg />
         </div>
-        <div className="">
-          <h3>Main Course</h3>
-          <hr />
-        </div>
+
+        <h3>Main Course</h3>
+        <hr />
         <div className="row">{menu}</div>
-        <div className="Snacks">
-          <h3>Snacks</h3>
-          <hr />
-        </div>
+        <h3>Snacks</h3>
+        <hr />
         <div className="row">{snacks}</div>
-        <div className="">
-          <h3>Healthy</h3>
-          <hr />
-        </div>
+        <h3>Healthy</h3>
+        <hr />
         <div className="row">{healthy}</div>
-        <div className="">
-          <h3>Sweets</h3>
-          <hr />
-        </div>
+        <h3>Sweets</h3>
+        <hr />
         <div className="row">{sweets}</div>
       </div>
     );
